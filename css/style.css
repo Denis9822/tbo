@@ -1,0 +1,3078 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+:root {
+    --primary: #171c3c;
+    --text: #000;
+    --secondary: grey;
+    --cta: #f8aa5a
+}
+
+body {
+    background-color: #005fc2;
+    font-family: Roboto;
+    font-size: 20px;
+    overflow-x: hidden
+}
+
+p {
+    color: #b2b2b2;
+    font-family: roboto;
+    line-height: 31px
+}
+
+a,
+body,
+li,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    color: inherit;
+    font-family: Noto Sans;
+    text-decoration: none
+}
+
+li {
+    font-family: Noto Sans;
+    list-style-type: none
+}
+
+.button {
+    background: none;
+    border: 2px solid;
+    padding: 6px 12px;
+    text-transform: uppercase
+}
+
+input,
+textarea {
+    background: #195073;
+    border: 2px purple;
+    border-radius: 20px;
+    color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center
+}
+
+h1 {
+    font-family: Noto sans;
+    font-size: 2em;
+    margin: initial
+}
+
+h1,
+h2 {
+    color: #fff
+}
+
+h2 {
+    font-size: 2.2em
+}
+
+h3 {
+    color: #fff;
+    font-size: 1.2em;
+    margin: initial
+}
+
+@font-face {
+    font-family: Noto Sans;
+    src: url(../fonts/Montserrat-Bold.079ca05d3ded9bc107ab.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf)
+}
+
+@font-face {
+    font-family: Gore;
+    src: url(../fonts/Gore-Regular.60d7969857d5477647bd.woff)
+}
+
+.about_us.secondo {
+    background: #edfaff;
+    padding-bottom: 60px
+}
+
+.stepdivider {
+    background-color: #ff9023;
+    border: none;
+    flex-shrink: 0;
+    height: 8px;
+    margin: 0;
+    width: 30%
+}
+
+.about_us {
+    padding: 20px
+}
+
+.flex_wallet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.cheemsboy {
+    height: auto;
+    width: auto
+}
+
+.b_ch,
+.hlast {
+    color: #000;
+    color: var(--text)
+}
+
+.steps_n {
+    align-items: center;
+    background: #005fc2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center
+}
+
+.steps_n h3 {
+    color: #fff
+}
+
+.about_us p,
+.steps_n h3 {
+    text-align: left
+}
+
+.head_div {
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.arr-star {
+    display: flex;
+    margin: auto
+}
+
+.hlast {
+    margin: 0
+}
+
+.arrow-top {
+    display: none;
+    height: auto;
+    width: 100px;
+    z-index: 99
+}
+
+.wrap_arrow.mobi {
+    bottom: -88px;
+    position: absolute;
+    right: 0;
+    z-index: 99
+}
+
+.steps_n h3 {
+    padding-bottom: 10px
+}
+
+.steps_n {
+    margin: 10px auto 20px;
+    padding: 10px 20px;
+    width: 80%
+}
+
+.qdeu {
+    margin-top: -6px;
+    padding-top: 30px;
+    width: 38px
+}
+
+.start_guide_h {
+    color: #000;
+    color: var(--text);
+    font-family: Noto sans;
+    padding-top: 0
+}
+
+.steps_n p {
+    color: #e1e1e1
+}
+
+.step_divider {
+    background-color: #fe8b1e!important;
+    display: block;
+    flex-shrink: 0;
+    height: 3px!important;
+    margin: 0;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-top: 13px!important;
+    width: 200px
+}
+
+.about_us h2 {
+    z-index: 99
+}
+
+.img_class_game {
+    justify-content: center;
+    width: 100%
+}
+
+.dp_flex_justify,
+.img_class_game {
+    display: flex;
+    flex-direction: row;
+    position: relative
+}
+
+.dp_flex_justify {
+    height: 300px;
+    justify-content: space-between
+}
+
+.illustration {
+    bottom: 0;
+    -webkit-filter: brightness(1.35);
+    filter: brightness(1.35);
+    height: auto;
+    left: 50%;
+    margin: auto auto auto -170px;
+    position: absolute;
+    width: 340px
+}
+
+.cards,
+.cardsone,
+.illustration_two {
+    display: none
+}
+
+.logo {
+    height: auto;
+    margin-top: -130px;
+    padding-bottom: 31px;
+    width: 95%
+}
+
+.part_game .btn_g {
+    background-color: #ffe66a;
+    border: #ffdead;
+    color: #000;
+    color: var(--text);
+    margin: 30px auto;
+    width: 100%
+}
+
+.part_game h2 {
+    font-family: Noto sans;
+    margin: 0;
+    text-align: left
+}
+
+.part_game p {
+    color: #d5d5d5;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left
+}
+
+.pizza {
+    display: flex;
+    height: auto;
+    margin-left: auto;
+    margin-top: -70px;
+    width: 100px
+}
+
+.part_game {
+    background-position-x: 57%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: relative
+}
+
+.laptop_wrap_game,
+.part_game {
+    display: flex;
+    flex-direction: column
+}
+
+.laptop_wrap_game {
+    border-bottom: 3px solid #c0a055;
+    border-top: 3px solid #c0a055;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.logo_buy {
+    z-index: 9
+}
+
+.bonk {
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: -60px;
+    width: 40%;
+    z-index: -1
+}
+
+.title-sticker {
+    color: #fff;
+    font-family: Noto sans;
+    font-size: 1.6rem;
+    line-height: 35px;
+    margin: auto;
+    text-align: center
+}
+
+.h2_stick {
+    color: #ffffffbf;
+    text-align: center
+}
+
+.stick-wrap .limenu {
+    display: none
+}
+
+.cheems-head {
+    display: flex;
+    margin: auto;
+    padding: 30px 0;
+    width: 80%
+}
+
+.rseau_soc img {
+    height: auto;
+    margin: 10px;
+    width: 60px
+}
+
+.rseau_soc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.cheems_one,
+.cheems_two,
+.laptopline,
+.vertical_line {
+    display: none
+}
+
+.poseidon {
+    height: auto;
+    margin: 30px auto;
+    width: 60%
+}
+
+.entry_title_game img {
+    height: auto;
+    width: 80px
+}
+
+.entry_title_game {
+    align-items: center;
+    display: flex;
+    flex-direction: row
+}
+
+.game_div,
+.partun {
+    display: flex;
+    flex-direction: column
+}
+
+.game_div {
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    padding: 100px 0;
+    position: relative;
+    width: 100%
+}
+
+.road_img {
+    padding-top: 100px
+}
+
+.road_map h2 {
+    font-family: Noto sans
+}
+
+.oignon {
+    right: 0
+}
+
+.oignon,
+.steack {
+    height: auto;
+    position: absolute;
+    top: -50px;
+    width: 90px
+}
+
+.steack {
+    right: 10px
+}
+
+.salad {
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: -50px;
+    width: 100px
+}
+
+.letuce {
+    position: relative
+}
+
+.tomato {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px
+}
+
+.road_content h3 {
+    color: #ffb43b;
+    font-family: Noto sans;
+    font-weight: 700
+}
+
+.road_map {
+    position: relative
+}
+
+.bas {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 100%
+}
+
+.entry_title_game h2 {
+    font-family: Gore;
+    text-align: center
+}
+
+.road_map {
+    background-color: #005fc2;
+    padding: 80px 30px 122px
+}
+
+.road_map h2 {
+    text-align: center
+}
+
+.road_map p {
+    color: #fff;
+    font-size: .8em
+}
+
+.cheems-pfp-mobiles {
+    height: auto;
+    padding-bottom: 60px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100%
+}
+
+.block_one {
+    border: 2px solid #ffb43b;
+    border-radius: 16px;
+    padding: 10px;
+    width: 45%;
+    z-index: 1
+}
+
+.qtwo {
+    color: #fff;
+    font-family: Noto sans;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+    width: 30%
+}
+
+.corp-r {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative
+}
+
+.corp-r .qdeu {
+    height: auto;
+    margin: -20px 0 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    width: 162px;
+    z-index: 0
+}
+
+.qtwo.spantree {
+    margin: auto auto auto 0;
+    padding-top: 20px
+}
+
+.block_one.block_two,
+.block_one.blockforth {
+    margin-top: 60px
+}
+
+.corp-r .qdeu.qtree {
+    left: 0;
+    right: auto;
+    -webkit-transform: none;
+    -webkit-transform: initial;
+    transform: none
+}
+
+.part_blok {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 350px;
+    position: relative
+}
+
+.rock {
+    bottom: 73%;
+    height: auto;
+    left: 10px;
+    position: absolute;
+    width: 70px
+}
+
+.rock.bottom {
+    bottom: 1%;
+    left: auto;
+    right: 10px
+}
+
+.arena {
+    height: auto;
+    margin: 40px auto 60px;
+    width: 80%
+}
+
+.part_deux {
+    display: flex;
+    flex-direction: column
+}
+
+.game_div p {
+    color: #fff;
+    padding: 30px 20px
+}
+
+.treecard {
+    height: auto;
+    margin: auto;
+    width: 80%
+}
+
+.wrap-entry {
+    display: flex;
+    flex-direction: column
+}
+
+.buy_cheems {
+    background: #005fc2;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, .28);
+    cursor: pointer;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    padding: 20px;
+    -webkit-transform: none;
+    transform: none;
+    width: 130px
+}
+
+.how_to {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    position: relative
+}
+
+.how_to p {
+    color: #002759;
+    text-align: center
+}
+
+.how_to .mobileline {
+    height: 90%;
+    left: 50%;
+    margin-left: -2px;
+    position: absolute;
+    top: 100px
+}
+
+.how_to div {
+    background: #e8e8e8;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px 5px hsla(0, 0%, 100%, .09);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 15px;
+    position: relative
+}
+
+.how_to img {
+    margin: 10px auto
+}
+
+.logo_buy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between
+}
+
+.about_us .buy_p {
+    color: #fe8b1e;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    text-align: center
+}
+
+.buy_cheems img {
+    height: auto;
+    margin: auto;
+    width: 85%
+}
+
+.about_us {
+    background-color: #010326;
+    display: flex;
+    flex-direction: column
+}
+
+.about_us h2 {
+    font-family: Noto sans;
+    text-align: center
+}
+
+.planete_pattern {
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%
+}
+
+.about_us {
+    overflow: hidden;
+    position: relative
+}
+
+.about_us p {
+    font-size: 20px;
+    margin-bottom: 70px
+}
+
+.tree_icon div {
+    background-size: contain;
+    height: 100px;
+    margin: 40px auto;
+    position: relative;
+    width: 205px
+}
+
+.tree_icon,
+.tree_icon div {
+    display: flex;
+    flex-direction: column
+}
+
+.tree_icon {
+    gap: 8px
+}
+
+.tree_icon img {
+    left: 50%;
+    margin-left: -28px;
+    position: absolute;
+    top: -39px;
+    width: 54px
+}
+
+.tree_icon .burned {
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    top: -49px;
+    width: 47px
+}
+
+.tree_icon .circulating {
+    margin-left: -33px;
+    top: -33px;
+    width: 65px
+}
+
+.tree_icon .one_span {
+    font-size: 15px;
+    padding-bottom: 5px
+}
+
+.tree_icon .one_span,
+.tree_icon .two_span {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center
+}
+
+.burger_r {
+    display: none
+}
+
+.title_entry {
+    margin-bottom: 35px;
+    text-align: center;
+    z-index: 1
+}
+
+.title_sec p {
+    padding-bottom: 60px
+}
+
+.title_sec {
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 120px
+}
+
+.road_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto
+}
+
+.entry_cheems_mob {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 20px 104px;
+    position: relative
+}
+
+.entry_cheems_mob p {
+    color: #ffffffc7;
+    text-align: center
+}
+
+.entry_cheems {
+    background-position: 50%;
+    background-size: cover;
+    display: none!important;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    padding: 150px 20px 30px
+}
+
+.entry_cheems p {
+    color: #ffffffc7;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.bm-item-list a:active {
+    color: blue
+}
+
+.arrow-top.mobile {
+    display: flex;
+    right: 10px
+}
+
+.arrow {
+    margin: auto
+}
+
+.disco img {
+    align-content: center;
+    align-self: center;
+    margin: auto 50%;
+    width: 250%
+}
+
+.bullet span {
+    color: #b2b2b2
+}
+
+.menu_laptop {
+    display: none;
+    z-index: 99
+}
+
+.footer {
+    background: #010326;
+    padding: 20px
+}
+
+.nm_o {
+    color: #fff;
+    text-align: center
+}
+
+.basdepage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0
+}
+
+.footer .MuiDivider-root {
+    background-color: #fff;
+    border: none;
+    height: 1px;
+    margin-top: 60px
+}
+
+.card_content img {
+    height: auto;
+    width: 80px
+}
+
+.title_card {
+    margin-top: 90px
+}
+
+.card_content p {
+    color: #7a7a7a
+}
+
+.card_content h2 {
+    margin-top: 60px
+}
+
+.card_content h3 {
+    color: #000
+}
+
+.bullet {
+    display: flex;
+    flex-direction: column
+}
+
+.bullet span {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Noto Sans;
+    margin-bottom: 10px
+}
+
+.bullet img {
+    margin-right: 5px
+}
+
+.bl_logo {
+    height: auto;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 70px
+}
+
+.title_pass {
+    margin-bottom: 0
+}
+
+.card_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.metamask {
+    height: auto;
+    width: 30px
+}
+
+.btn_un {
+    align-items: center;
+    background: #fe861c;
+    background: linear-gradient(0deg, #fe861c, #ffb43b);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: flex!important;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#fe861c", endColorstr="#ffb43b", GradientType=1);
+    flex-direction: row;
+    font-family: Noto Sans;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 15px;
+    width: 100%
+}
+
+.btn_un,
+.lastp_text {
+    text-transform: uppercase
+}
+
+.lastp_text {
+    color: #538399;
+    font-size: 10px
+}
+
+.last_players {
+    top: 210px
+}
+
+.last_players,
+.times {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 50%;
+    margin-left: -103px;
+    position: absolute;
+    width: 200px
+}
+
+.times {
+    top: 90px
+}
+
+.wallet_info {
+    color: #538399;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px
+}
+
+.times .wrap_t {
+    flex-direction: column
+}
+
+.number_wrap,
+.times .wrap_t {
+    display: flex;
+    justify-content: center;
+    width: 60px
+}
+
+.number_wrap {
+    background: #49bcd6;
+    height: 70px
+}
+
+.number_wrap span {
+    color: #fff;
+    font-family: Noto sans;
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+    text-align: center
+}
+
+.times p {
+    color: #0c1b33;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.btn_un_bet {
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 25px;
+    font-size: 31px;
+    height: 90px;
+    position: absolute
+}
+
+.btn_un_bet,
+.btn_un_stick {
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: flex!important;
+    flex-direction: row;
+    font-family: Noto Sans;
+    justify-content: center;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.btn_un_stick {
+    background-color: #fe861c;
+    font-size: 16px
+}
+
+.btn_un_phantom {
+    align-items: center;
+    background-color: #cfc6ff;
+    border: none;
+    border-radius: 10px;
+    color: #543ec4;
+    display: flex!important;
+    flex-direction: row;
+    font-family: Noto Sans;
+    font-size: 16px;
+    justify-content: center;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.wrap_gameboy {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 340px
+}
+
+.littlearrow {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    width: 150px
+}
+
+.final_text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    position: relative
+}
+
+.final_text p {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center
+}
+
+.final_text span {
+    color: #ffb43b
+}
+
+.body_cheemsboy_un {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.body_cheemsboy_un .bm-burger-button,
+.body_cheemsboy_un .limenu {
+    display: none
+}
+
+.body_cheemsboy h2 {
+    color: #ffb43b;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000
+}
+
+.body_cheemsboy h3 {
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.body_cheemsboy {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 20px 20px
+}
+
+.body_cheemsboy,
+.wrap_gameboy {
+    display: flex;
+    flex-direction: column
+}
+
+.phantom {
+    height: auto;
+    margin-right: 15px;
+    width: 50px
+}
+
+.btn_m.mobile {
+    background-color: #171c3c;
+    background-color: var(--primary);
+    display: flex!important;
+    width: 80%
+}
+
+.btn_m.laptop,
+.btn_m.mobile {
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    flex-direction: row;
+    font-family: Noto Sans;
+    font-size: 16px;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 15px;
+    text-transform: uppercase
+}
+
+.btn_m.laptop {
+    background-color: #031f3c;
+    display: none;
+    width: 250px
+}
+
+.btn_g {
+    background-color: transparent;
+    border: 2px solid #74baee;
+    border-radius: 10px;
+    display: flex!important;
+    font-family: Noto Sans;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 15px
+}
+
+.btn,
+.btn_g {
+    align-items: center;
+    color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.btn {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 20px;
+    display: none!important;
+    padding: 6px 12px
+}
+
+.btn span {
+    margin-left: 10px
+}
+
+.rseau img {
+    height: auto;
+    width: 64px
+}
+
+.basdepage {
+    margin: auto;
+    max-width: 1200px
+}
+
+.rseau {
+    align-items: center;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px!important;
+    width: 100%
+}
+
+.effect-content {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    overflow: hidden;
+    position: relative
+}
+
+.bck_tourne {
+    -webkit-animation: rotation 70s linear infinite;
+    animation: rotation 70s linear infinite;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.buste {
+    margin: auto;
+    width: 250px;
+    z-index: 1
+}
+
+.object.un {
+    bottom: 19%;
+    height: 20px;
+    right: 48%;
+    width: auto
+}
+
+.object.deux {
+    bottom: 33%;
+    height: 20px;
+    right: 16%;
+    width: auto
+}
+
+.object.trois {
+    height: auto;
+    right: 40%;
+    top: 10%;
+    width: 23px
+}
+
+.object.quatre {
+    height: 8px;
+    right: 65%;
+    top: 23%;
+    width: auto
+}
+
+.object.cinq {
+    height: 38px;
+    right: 78%;
+    top: 29%;
+    width: auto
+}
+
+.w_logo {
+    height: auto;
+    left: 20px;
+    top: 20px;
+    width: 60px
+}
+
+.ch_log {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 20px;
+    position: absolute;
+    top: 21px;
+    z-index: 99
+}
+
+.ch_n {
+    margin: auto;
+    text-align: center
+}
+
+.ch_log span,
+.ch_n {
+    color: #fff;
+    font-family: Noto Sans
+}
+
+.main-content {
+    padding: 120px 20px 20px
+}
+
+.discovideo {
+    margin: auto
+}
+
+.card_standart {
+    margin-bottom: 150px
+}
+
+.sticker_div {
+    background: #171c3c;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px 5px #185073a6;
+    height: 60%;
+    margin: auto;
+    width: 100%
+}
+
+.stick-wrap,
+.sticker_div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+
+.stick-wrap {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+
+.stick-wrap .basdepage {
+    padding-top: 0
+}
+
+.input-stick {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20%;
+    margin-top: auto
+}
+
+.input-stick,
+.wrap_sti {
+    display: flex;
+    width: 100%
+}
+
+.wrap_sti {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    overflow: hidden
+}
+
+.sticker_div input {
+    margin: auto;
+    width: 100%
+}
+
+.stickers-image {
+    border: 3px solid #195073;
+    border-radius: 50%;
+    height: auto;
+    margin: auto;
+    width: 150px
+}
+
+.pfp_wrap {
+    display: none
+}
+
+.road_img_laptop {
+    display: none;
+    padding-right: 44px
+}
+
+.absolut_road,
+.title_sec_laptop {
+    display: none
+}
+
+.start_guide_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%
+}
+
+.part_game {
+    background-color: #010326
+}
+
+.part_pfp {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative
+}
+
+.first_pfp .btn_g {
+    background-position: 50%;
+    background-size: cover;
+    border: #ffdead;
+    position: relative;
+    width: 100%
+}
+
+.part_pfp h2 {
+    font-family: Noto Sans
+}
+
+.part_pfp img {
+    width: 100%
+}
+
+.text_pfp {
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.pfp_z {
+    height: auto;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.part_pfp .pfp_f {
+    height: auto;
+    width: 48%
+}
+
+.pfp_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    row-gap: 40px
+}
+
+.part_pfp .moutarde {
+    bottom: -37px;
+    height: auto;
+    left: -3px;
+    position: absolute;
+    width: 80px
+}
+
+.cheemies_logo {
+    height: auto;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    width: 100%
+}
+
+.part_pfp .MuiDivider-root {
+    background-color: transparent;
+    height: 2px;
+    margin-bottom: 215px
+}
+
+.part_pfp .glasses {
+    height: auto;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 70px
+}
+
+.part_pfp .red-hat {
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 219px;
+    width: 110px
+}
+
+.first_pfp p {
+    color: #e1e1e1;
+    margin-bottom: 70px
+}
+
+.part_pfp .goggle,
+.part_pfp .proppeller-hat {
+    display: none;
+    height: auto;
+    width: 70px
+}
+
+.home_h {
+    overflow: hidden
+}
+
+.deco,
+.deco_un {
+    display: none
+}
+
+.cards_display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: auto
+}
+
+.cards_display img {
+    margin: 30px auto auto;
+    width: 45%
+}
+
+.laptop_wrap_game {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto
+}
+
+@media screen and (min-width:620px) {
+    @-webkit-keyframes float {
+        0% {
+            -webkit-transform: translatey(0);
+            transform: translatey(0)
+        }
+        50% {
+            -webkit-transform: translatey(-20px);
+            transform: translatey(-20px)
+        }
+        to {
+            -webkit-transform: translatey(0);
+            transform: translatey(0)
+        }
+    }
+    @keyframes float {
+        0% {
+            -webkit-transform: translatey(0);
+            transform: translatey(0)
+        }
+        50% {
+            -webkit-transform: translatey(-20px);
+            transform: translatey(-20px)
+        }
+        to {
+            -webkit-transform: translatey(0);
+            transform: translatey(0)
+        }
+    }
+    .part_pfp .cheemies_logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px
+    }
+    .btn_g,
+    .btn_un {
+        width: 90%
+    }
+    .sticker_div {
+        min-height: 600px
+    }
+    .littlearrow {
+        left: 56%
+    }
+    .pfp_flex {
+        justify-content: space-around
+    }
+    .part_pfp .pfp_f {
+        width: 35%
+    }
+    .part_game h2 {
+        padding-bottom: 30px;
+        text-align: center
+    }
+    .cheemies_logo {
+        margin-left: -21px
+    }
+    .part_pfp .pfp_z {
+        display: none;
+        margin: auto;
+        width: 70%
+    }
+    .cards_display img {
+        width: 30%
+    }
+    .text_pfp {
+        flex-direction: column
+    }
+    .laptop_wrap_game {
+        padding: initial
+    }
+    .first_pfp .btn_g {
+        padding: 25px 15px
+    }
+    .cheems-pfp {
+        margin: auto
+    }
+    .wrap_arrow {
+        bottom: -88px;
+        left: 30px;
+        position: absolute;
+        z-index: 99
+    }
+    .steps_n {
+        padding: 10px 80px;
+        width: 60%
+    }
+    .flex_p,
+    .pfp_wrap {
+        display: flex
+    }
+    .flex_p {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%
+    }
+    .flex_p p {
+        padding: 0 9px
+    }
+    .body_cheemsboy {
+        margin-top: 0;
+        padding-top: 40px;
+        position: relative
+    }
+    .final_text {
+        width: 600px
+    }
+    .wrap_wrapgame {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto 100px;
+        max-width: 1300px
+    }
+    .body_cheemsboy .menu_laptop {
+        top: 0
+    }
+    .body_cheemsboy .limenu {
+        display: none
+    }
+    .btn_un_phantom {
+        margin-left: auto;
+        width: 276px;
+        z-index: 99
+    }
+    .phantom {
+        width: 35px
+    }
+    .div_btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    .part_game p {
+        color: #e5e5e5;
+        margin: auto;
+        padding: 30px
+    }
+    .part_game .btn_g {
+        max-width: 500px
+    }
+    .illustration {
+        left: 0;
+        margin-left: 0
+    }
+    .road_content {
+        margin: auto;
+        width: 320px
+    }
+    .illustration_two {
+        webkit-transform: scaleX(-1);
+        bottom: 0;
+        display: flex;
+        -webkit-filter: brightness(1.1);
+        filter: brightness(1.1);
+        height: auto;
+        position: absolute;
+        right: 0;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        width: 280px
+    }
+    .illustration {
+        width: 320px
+    }
+    .logo {
+        margin-top: 50px
+    }
+    .bonk,
+    .logo {
+        width: 30%
+    }
+    .cheems-head {
+        margin: auto;
+        width: 50%
+    }
+    .cheems-pfp {
+        -webkit-filter: brightness(1.15);
+        filter: brightness(1.15);
+        height: auto;
+        margin-left: auto;
+        width: 500px
+    }
+    .wrap_wrap {
+        position: relative
+    }
+    .steps_n h3 {
+        text-align: center
+    }
+    .arrow-top {
+        display: flex
+    }
+    .stickers-image {
+        box-shadow: 5px 5px 15px 5px #185073a6;
+        height: auto;
+        width: 200px
+    }
+    .input-stick {
+        margin-bottom: 10%
+    }
+    .sticker_div {
+        padding: 20px 50px;
+        width: 500px
+    }
+    .entry_title_game {
+        margin: auto
+    }
+    .corp-r .qdeu {
+        left: 50%;
+        margin-left: 64px;
+        z-index: 1
+    }
+    .qtwo.qtwo.spantree {
+        text-align: left
+    }
+    .qdeu.qtree.qforth {
+        left: -43px
+    }
+    .qtwo.spantree.spanforth {
+        text-align: center
+    }
+    .vertical_line {
+        bottom: 0;
+        display: inline-block;
+        height: auto;
+        left: 50%;
+        margin-left: -2px;
+        position: absolute;
+        top: 0;
+        width: 2px;
+        z-index: 0
+    }
+    .logo_buy,
+    .tree_icon {
+        justify-content: center
+    }
+    .tree_icon {
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+    .entry_title_game {
+        font-size: 1.5em
+    }
+    .entry_title_game img {
+        width: 100px
+    }
+    .how_to div {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px
+    }
+    .poseidon {
+        width: 40%
+    }
+    .bas {
+        bottom: -232px
+    }
+    .corp-r {
+        margin: auto;
+        max-width: 650px
+    }
+    .part_blok {
+        margin: initial;
+        max-width: 500px
+    }
+    .part_blok.part_tree {
+        margin: initial;
+        margin-left: auto
+    }
+    .game_div p {
+        text-align: center
+    }
+    .arrow {
+        display: none
+    }
+    .entry_cheems_mob {
+        display: none!important
+    }
+    .cheems_entry {
+        -webkit-animation: float 4s ease-in-out infinite;
+        animation: float 4s ease-in-out infinite;
+        height: auto;
+        margin: auto;
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+        width: 188px
+    }
+    .entry_cheems {
+        display: flex!important
+    }
+    .menu_laptop {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .btn_un .btn_g {
+        padding: 24px 15px
+    }
+    .title_card {
+        text-align: center
+    }
+    .card_content .card {
+        width: 23%
+    }
+    .card_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    .title_pass {
+        height: 80px
+    }
+    .corp-r .qdeu.qtree {
+        left: -53px
+    }
+    .corp-r .qdeu.qtree.qforth {
+        left: -42px
+    }
+    .absolute_circle {
+        height: 300px;
+        left: -80px;
+        position: absolute;
+        top: 10%;
+        width: 300px
+    }
+    .absolute_circle_two {
+        bottom: 0;
+        display: none;
+        height: 200px;
+        position: absolute;
+        right: -50px;
+        width: 200px
+    }
+    .entry_cheems {
+        height: auto
+    }
+    .laptop_wrap_game {
+        width: 100%
+    }
+    .wallet-adapter-button {
+        display: flex;
+        justify-content: center;
+        z-index: 99
+    }
+}
+
+@media screen and (min-width:960px) {
+    .cards_display {
+        margin: auto;
+        max-width: 1300px
+    }
+    .cards_display img {
+        width: 16%
+    }
+    .deco_un {
+        left: 0
+    }
+    .deco,
+    .deco_un {
+        bottom: 0;
+        display: flex;
+        position: absolute
+    }
+    .deco {
+        right: 0;
+        top: 0
+    }
+    .wrap_border {
+        border-top: 5px solid #0c1b33;
+        position: relative
+    }
+    .wrap_w {
+        background: #edfaff;
+        padding-bottom: 150px;
+        padding-top: 100px
+    }
+    .road_map {
+        border-radius: 30px;
+        margin: auto
+    }
+    .road_content,
+    .road_map {
+        max-width: 1000px
+    }
+    .part_game h2 {
+        margin-top: 50px
+    }
+    .first_pfp .btn_g {
+        margin-left: 0;
+        max-width: 500px
+    }
+    .cheems-pfp {
+        padding-left: 50px;
+        width: 580px
+    }
+    .part_game {
+        padding-bottom: 0
+    }
+    .logo {
+        margin-top: -224px;
+        padding-top: 0
+    }
+    .part_game {
+        border-bottom: 5px solid #d1b06c;
+        border-top: 5px solid #d1b06c
+    }
+    .part_pfp {
+        margin: auto;
+        max-width: 1300px
+    }
+    .first_pfp {
+        padding-right: 180px
+    }
+    .part_pfp .pfp_f {
+        height: auto;
+        width: 17%
+    }
+    .pfp_flex {
+        margin-top: 240px
+    }
+    .part_pfp .red-hat {
+        height: auto;
+        position: absolute;
+        right: 50%;
+        top: 330px;
+        width: 200px
+    }
+    .first_pfp .btn_g {
+        padding: 20px 15px
+    }
+    .part_pfp .proppeller-hat {
+        bottom: 37%;
+        left: 34%
+    }
+    .part_pfp .goggle,
+    .part_pfp .proppeller-hat {
+        display: flex;
+        height: auto;
+        position: absolute;
+        width: 200px
+    }
+    .part_pfp .goggle {
+        bottom: 35%;
+        right: 1%
+    }
+    .part_pfp .cheemies_logo {
+        margin: 70px auto 100px;
+        width: 430px
+    }
+    .part_pfp .glasses {
+        height: auto;
+        left: 122px;
+        position: absolute;
+        top: 106px;
+        width: 150px
+    }
+    .first_pfp {
+        width: 50%
+    }
+    .part_pfp .pfp_z {
+        display: flex;
+        width: 30%
+    }
+    .text_pfp {
+        flex-direction: row
+    }
+    .wallet-adapter-button {
+        width: 200px
+    }
+    .wrap_wrapgame h2 {
+        font-size: 60px
+    }
+    .about_us .steps_n p {
+        font-size: 14px
+    }
+    .start_guide_wrap {
+        max-width: 1000px;
+        width: 100%
+    }
+    .flex_wallet,
+    .start_guide_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto
+    }
+    .flex_wallet {
+        align-items: center;
+        gap: 20px;
+        max-width: 1300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 150px
+    }
+    .about_us .hlast {
+        margin-left: auto
+    }
+    .arr-star {
+        height: auto;
+        margin-right: -120px;
+        position: absolute;
+        right: 44%;
+        top: -142px;
+        width: 250px
+    }
+    .absolute_circle_two {
+        display: block
+    }
+    .about_us h2 {
+        margin-bottom: 65px;
+        margin-top: 60px;
+        padding-top: 10px
+    }
+    .container_start_guide {
+        background: #005fc2;
+        border-radius: 30px;
+        margin: auto auto 150px;
+        padding: 60px 19px;
+        position: relative
+    }
+    .final_text {
+        width: 900px
+    }
+    .qdeu {
+        margin-top: -6px;
+        padding-top: 0;
+        width: 38px
+    }
+    .about_us p {
+        font-size: 17px;
+        text-align: left
+    }
+    .btn_g,
+    .btn_un {
+        width: 80%
+    }
+    .container_start_guide {
+        margin-bottom: 150px
+    }
+    .steps_n h3 {
+        text-align: left
+    }
+    .steps_n {
+        align-items: flex-start;
+        background: none;
+        justify-content: normal;
+        margin: 0 auto;
+        padding: 30px
+    }
+    .steps_n,
+    .wrap_wrap {
+        display: flex;
+        flex-direction: row
+    }
+    .wrap_wrap {
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1300px;
+        position: relative
+    }
+    .pfp_wrap {
+        display: flex;
+        z-index: 1
+    }
+    .cheems-pfp {
+        margin-top: auto
+    }
+    .wrap_game_div {
+        background: #010326;
+        margin: auto;
+        max-width: 1500px;
+        padding: 54px
+    }
+    .title-sticker {
+        font-size: 30px;
+        line-height: 50px
+    }
+    .game_div {
+        max-width: 1000px
+    }
+    .cheems-head {
+        display: inline-block;
+        height: auto;
+        margin: auto;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        width: 200px
+    }
+    .head_div p {
+        margin-right: auto;
+        padding-left: 30px;
+        text-align: justify;
+        width: 100%
+    }
+    .head_div {
+        margin: auto;
+        max-width: 1300px
+    }
+    .road_map p {
+        line-height: 38px
+    }
+    .corp-r .qdeu.qtree {
+        left: -99px
+    }
+    .wrap-entry {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-right: auto;
+        width: 100%
+    }
+    .arrow {
+        bottom: 10px;
+        left: 50%;
+        margin-left: -25px;
+        position: absolute;
+        width: 50px
+    }
+    .menu_laptop {
+        left: 0;
+        position: absolute;
+        right: 0
+    }
+    .entry_cheems {
+        height: 100%;
+        margin: auto;
+        max-width: 1400px;
+        padding-bottom: 194px;
+        padding-top: 100px
+    }
+    .cheems_entry {
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width: 200px
+    }
+    .planete_pattern {
+        bottom: -1px
+    }
+    .div_btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 600px;
+        width: 100%
+    }
+    .entry_cheems h1 {
+        font-size: 2.2em;
+        margin-bottom: 0;
+        max-width: 740px;
+        padding-top: 60px;
+        text-transform: uppercase
+    }
+    .entry_cheems h1,
+    .entry_cheems p {
+        margin-right: auto;
+        text-align: left
+    }
+    .entry_cheems p {
+        max-width: 600px
+    }
+    .btn_g,
+    .btn_un {
+        width: 70%
+    }
+    .menu_laptop {
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 1300px;
+        padding: 40px 10px
+    }
+    .menu_laptop .w_logo {
+        position: inherit
+    }
+    .limenu .btn {
+        background-color: #fff;
+        border-radius: 15px;
+        color: #000;
+        padding: 6px 20px;
+        width: 175px
+    }
+    .limenu .rseau {
+        margin-bottom: auto;
+        margin-top: auto!important;
+        width: auto
+    }
+    .limenu .rseau img {
+        margin-right: 15px
+    }
+    .limenu a {
+        color: #ffffffc7;
+        font-family: Noto Sans;
+        font-size: 14px;
+        margin-bottom: auto;
+        margin-top: auto;
+        text-align: center
+    }
+    .limenu {
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%
+    }
+    body {
+        font-size: 18px
+    }
+    .menu_mob {
+        display: none
+    }
+    .main-content {
+        margin: auto;
+        max-width: 1200px
+    }
+    .wrapper_ld {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 100px
+    }
+    .main-content h1 {
+        margin: initial;
+        text-align: left;
+        width: 100%
+    }
+    .h_ld {
+        align-self: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: auto
+    }
+    .effect-content {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        height: 500px
+    }
+    .bck_tourne {
+        height: 500px;
+        margin-bottom: 80px;
+        width: 500px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .flex_wallet {
+        padding-top: 20px
+    }
+    .final_text .flex_p p {
+        font-size: 13px;
+        text-align: center;
+        width: 33.3%
+    }
+    .title_sec_laptop div {
+        display: flex;
+        flex-direction: column
+    }
+    .laptop_wrap_game {
+        border: none;
+        max-width: 1300px
+    }
+    .about_us p {
+        width: 961px
+    }
+    .container_start_guide {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0 0
+    }
+    .steps_n {
+        border-bottom: 1px solid #ffffff38;
+        border-radius: 0;
+        border-radius: initial
+    }
+    .about_us h2 {
+        margin-bottom: 0
+    }
+    .absolute_circle {
+        left: 0
+    }
+    .title_sec_laptop {
+        display: flex;
+        flex-direction: column
+    }
+    .part_game .btn_g {
+        max-width: 330px
+    }
+    .absolute_circle_two {
+        right: 0;
+        top: 23%
+    }
+    .part_game p {
+        margin-bottom: 56px
+    }
+    .dp_flex_justify {
+        height: 130px
+    }
+    .logo {
+        height: auto;
+        padding-bottom: 0;
+        width: 400px
+    }
+    .illustration_two {
+        z-index: 99
+    }
+    .part_game {
+        padding-top: 60px
+    }
+    .wrap_h2 {
+        margin: auto;
+        max-width: 1000px
+    }
+    .part_game h2 {
+        text-align: center
+    }
+    .burger_r {
+        width: 200px
+    }
+    .burger_r,
+    .road_content {
+        display: flex;
+        margin: auto
+    }
+    .road_content {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        width: 1150px
+    }
+    .wrap_burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 33.3%
+    }
+    .title_sec_laptop {
+        width: 33.3%
+    }
+    .road_img {
+        display: none
+    }
+    .road_img_laptop {
+        display: flex;
+        height: auto;
+        margin: auto;
+        padding-top: 38px;
+        width: 4.8px
+    }
+    .wrap_mbimage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 33.3%
+    }
+    .road_map {
+        padding: 70px 0
+    }
+    .title_sec_laptop h3 {
+        padding-bottom: 30px;
+        padding-top: 50px;
+        text-align: center
+    }
+    .title_sec_laptop p {
+        text-align: left
+    }
+    .oignon,
+    .title_sec,
+    .tomato {
+        display: none
+    }
+    .absolut_road {
+        height: auto;
+        width: 333px
+    }
+    .absolut_road.qun {
+        top: 32px
+    }
+    .absolut_road.qdeux,
+    .absolut_road.qun {
+        display: flex;
+        position: absolute;
+        right: -108px
+    }
+    .absolut_road.qdeux {
+        top: 329px
+    }
+    .absolut_road.qtrois {
+        top: 626px
+    }
+    .absolut_road.qquatre,
+    .absolut_road.qtrois {
+        display: flex;
+        position: absolute;
+        right: -108px
+    }
+    .absolut_road.qquatre {
+        bottom: 180px
+    }
+    .head_div p {
+        padding-left: 0;
+        text-align: center
+    }
+    .wrap_entry {
+        height: 60vh
+    }
+    .corp-r .qdeu.qtree {
+        left: -54px
+    }
+    .cheems_one {
+        left: 0;
+        top: 335px;
+        width: 187px
+    }
+    .cheems_one,
+    .cheems_two {
+        display: none;
+        height: auto;
+        position: absolute
+    }
+    .cheems_two {
+        right: 0;
+        top: 680px;
+        width: 191px
+    }
+    .game_div {
+        background-position: 50%;
+        background-size: cover
+    }
+    .entry_title_game img {
+        width: 150px
+    }
+    .entry_title_game h2 {
+        letter-spacing: 5px
+    }
+    .entry_title_game {
+        gap: 20px
+    }
+    .how_to .tab_one {
+        left: 32px;
+        position: absolute;
+        top: -206px;
+        width: 192px
+    }
+    .how_to img {
+        height: auto;
+        width: 40px
+    }
+    .how_to p {
+        font-size: .6em;
+        padding: 10px
+    }
+    .how_to .tab_two {
+        position: absolute;
+        right: 0;
+        top: -120px;
+        width: 240px
+    }
+    .how_to .tab_tree {
+        left: 162px;
+        position: absolute;
+        top: 176px;
+        width: 262px
+    }
+    .how_to .tab_forth {
+        bottom: 66px;
+        position: absolute;
+        right: 4px;
+        width: 270px
+    }
+    .mobileline {
+        display: none
+    }
+    .how_to {
+        height: 1200px;
+        margin: auto auto 150px;
+        width: 800px
+    }
+    .how_to .laptopline {
+        display: inline-block;
+        height: auto;
+        margin-bottom: auto;
+        margin-left: -30px;
+        margin-top: auto;
+        position: absolute;
+        width: 800px
+    }
+    .planete_pattern {
+        bottom: -1px;
+        margin: auto
+    }
+    .poseidon {
+        width: 250px
+    }
+    .arena {
+        width: 700px
+    }
+    .treecard {
+        width: 400px
+    }
+    .partun {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        max-width: 1000px
+    }
+    .rock {
+        bottom: 64%;
+        left: 92px
+    }
+    .rock.bottom {
+        bottom: 3%;
+        left: 64%
+    }
+    .btn_m.mobile {
+        display: none!important
+    }
+    .g_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        padding-right: 50px
+    }
+    .btn_m.laptop {
+        display: flex!important;
+        margin: initial;
+        margin-left: 20px;
+        margin-right: auto
+    }
+    .partun p {
+        text-align: left
+    }
+    .wrap-entry {
+        padding-bottom: 130px
+    }
+    .tree_icon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 40px auto 20px;
+        max-width: 1000px;
+        width: 100%
+    }
+    .road_map {
+        background-color: #005fc2;
+        width: 100%
+    }
+    .about_us .hlast {
+        color: #171c3c;
+        color: var(--primary);
+        margin-bottom: 80px;
+        margin-left: auto;
+        max-width: 1300px;
+        text-align: right
+    }
+    .game_div p {
+        margin: auto;
+        max-width: 800px;
+        padding-bottom: 57px
+    }
+    .partun {
+        margin-bottom: 80px
+    }
+    .g_div .f_p {
+        max-width: 500px
+    }
+    .pizza {
+        bottom: -50px;
+        position: absolute;
+        right: 0
+    }
+    .dp_flex_justify,
+    .img_class_game {
+        margin: auto;
+        max-width: 1000px
+    }
+    .dp_flex_justify {
+        width: 100%
+    }
+    .bas {
+        bottom: auto;
+        max-width: 1300px;
+        top: -2px
+    }
+    .bas,
+    .entry_title_game {
+        margin: auto
+    }
+    .entry_cheems h1 {
+        margin-bottom: 24px;
+        margin-top: 40px
+    }
+    .about_us p,
+    .game_div {
+        margin: auto;
+        max-width: 1000px
+    }
+    .about_us h2 {
+        margin-top: 0;
+        padding-top: 70px
+    }
+    .effect-content {
+        margin-bottom: auto;
+        margin-top: auto
+    }
+    .wrapper_ld h1 {
+        margin-bottom: 15px;
+        margin-top: auto
+    }
+    body {
+        font-size: 20px
+    }
+    .disco {
+        background-position-y: 10%
+    }
+    .wrap_faq {
+        margin-bottom: 300px
+    }
+    .buy_cheems {
+        height: 100px;
+        width: 100px
+    }
+    .about_us .b_ch {
+        color: #171c3c;
+        color: var(--primary);
+        margin: auto auto 60px;
+        text-align: center;
+        width: 1300px
+    }
+    .steps_n {
+        padding: 30px;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content
+    }
+    .container_start_guide {
+        max-width: 1300px;
+        width: 100%
+    }
+    .entry_cheems {
+        padding: 100px 0 30px
+    }
+    .bonk {
+        width: 18%
+    }
+    .btn_un {
+        margin-left: 0
+    }
+    .btn_g,
+    .btn_un {
+        width: 80%
+    }
+    .pizza {
+        bottom: -100px
+    }
+    .part_game p {
+        font-size: 17px;
+        max-width: 1000px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .wrap_wrapgame {
+        margin: 0 auto 150px
+    }
+    .entry_cheems {
+        max-width: 1300px
+    }
+    .tree_icon {
+        max-width: 1000px
+    }
+    .entry_cheems {
+        padding: 150px 0 30px
+    }
+    .planete_pattern {
+        max-width: 1300px
+    }
+    .entry_cheems h1 {
+        font-size: 2.2em
+    }
+    .about_us {
+        margin: auto;
+        padding: 0;
+        width: 100%
+    }
+    .entry_cheems p {
+        margin-bottom: 50px
+    }
+    .cheems_entry {
+        margin-bottom: 150px;
+        margin-top: 60px;
+        width: 250px
+    }
+    .basdepage {
+        max-width: 1300px
+    }
+    .btn_un {
+        display: flex!important
+    }
+    .disco {
+        background-position-y: center;
+        background-size: contain
+    }
+    .disco,
+    .main_content_team {
+        max-width: 1400px
+    }
+    .disco {
+        height: 100%
+    }
+    .menu_laptop {
+        max-width: 1300px
+    }
+    .main-content {
+        max-width: 1400px
+    }
+    .buste {
+        width: 330px
+    }
+    .discovideo video {
+        height: 800px
+    }
+    .absolute_circle {
+        height: 300px;
+        left: -3%;
+        position: absolute;
+        top: 10%;
+        width: 300px
+    }
+    .absolute_circle_two {
+        right: -6%;
+        top: 17%
+    }
+}
+
+.wallet-adapter-button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px
+}
+
+.wallet-adapter-button-trigger {
+    background-color: #512da8
+}
+
+.wallet-adapter-button:not([disabled]):focus-visible {
+    outline-color: #fff
+}
+
+.wallet-adapter-button:not([disabled]):hover {
+    background-color: #1a1f2e
+}
+
+.wallet-adapter-button[disabled] {
+    background: #404144;
+    color: #999;
+    cursor: not-allowed
+}
+
+.wallet-adapter-button-end-icon,
+.wallet-adapter-button-end-icon img,
+.wallet-adapter-button-start-icon,
+.wallet-adapter-button-start-icon img {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    width: 24px
+}
+
+.wallet-adapter-button-end-icon {
+    margin-left: 12px
+}
+
+.wallet-adapter-button-start-icon {
+    margin-right: 12px
+}
+
+.wallet-adapter-collapse {
+    width: 100%
+}
+
+.wallet-adapter-dropdown {
+    display: inline-block;
+    position: relative
+}
+
+.wallet-adapter-dropdown-list {
+    grid-row-gap: 10px;
+    background: #2c2d30;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .6);
+    display: grid;
+    font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    grid-template-rows: 1fr;
+    list-style: none;
+    margin: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transition: opacity .2s ease, visibility .2s, -webkit-transform .2s ease;
+    transition: opacity .2s ease, transform .2s ease, visibility .2s;
+    transition: opacity .2s ease, transform .2s ease, visibility .2s, -webkit-transform .2s ease;
+    visibility: hidden;
+    z-index: 99
+}
+
+.wallet-adapter-dropdown-list-active {
+    opacity: 1;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    visibility: visible
+}
+
+.wallet-adapter-dropdown-list-item {
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 600;
+    height: 37px;
+    justify-content: center;
+    outline: none;
+    padding: 0 20px;
+    white-space: nowrap;
+    width: 100%
+}
+
+.wallet-adapter-dropdown-list-item:not([disabled]):hover {
+    background-color: #1a1f2e
+}
+
+.wallet-adapter-modal-collapse-button svg {
+    fill: #999;
+    align-self: center
+}
+
+.wallet-adapter-modal-collapse-button.wallet-adapter-modal-collapse-button-active svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: -webkit-transform .15s ease-in;
+    transition: transform .15s ease-in;
+    transition: transform .15s ease-in, -webkit-transform .15s ease-in
+}
+
+.wallet-adapter-modal {
+    background: rgba(0, 0, 0, .5);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity .15s linear;
+    z-index: 1040
+}
+
+.wallet-adapter-modal.wallet-adapter-modal-fade-in {
+    opacity: 1
+}
+
+.wallet-adapter-modal-button-close {
+    align-items: center;
+    background: #1a1f2e;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    position: absolute;
+    right: 18px;
+    top: 18px
+}
+
+.wallet-adapter-modal-button-close:focus-visible {
+    outline-color: #fff
+}
+
+.wallet-adapter-modal-button-close svg {
+    fill: #777;
+    transition: fill .2s ease 0s
+}
+
+.wallet-adapter-modal-button-close:hover svg {
+    fill: #fff
+}
+
+.wallet-adapter-modal-overlay {
+    background: rgba(0, 0, 0, .5);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0
+}
+
+.wallet-adapter-modal-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    min-height: calc(100vh - 6rem)
+}
+
+@media (max-width:480px) {
+    .wallet-adapter-modal-container {
+        margin: 1rem;
+        min-height: calc(100vh - 2rem)
+    }
+}
+
+.wallet-adapter-modal-wrapper {
+    align-items: center;
+    background: #10141f;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    max-width: 400px;
+    position: relative;
+    z-index: 1050
+}
+
+.wallet-adapter-modal-wrapper .wallet-adapter-button {
+    width: 100%
+}
+
+.wallet-adapter-modal-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 0;
+    padding: 64px 48px 48px;
+    text-align: center
+}
+
+@media (max-width:374px) {
+    .wallet-adapter-modal-title {
+        font-size: 18px
+    }
+}
+
+.wallet-adapter-modal-list {
+    list-style: none;
+    margin: 0 0 12px;
+    padding: 0;
+    width: 100%
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button {
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon img,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon img {
+    height: 28px;
+    width: 28px
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button span {
+    font-size: 14px;
+    margin-left: auto;
+    opacity: .6
+}
+
+.wallet-adapter-modal-list-more {
+    align-items: center;
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    padding: 12px 24px 24px 12px
+}
+
+.wallet-adapter-modal-list-more svg {
+    fill: #fff;
+    margin-left: .5rem;
+    transition: all .1s ease
+}
+
+.wallet-adapter-modal-list-more-icon-rotate {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.wallet-adapter-modal-middle {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 24px;
+    width: 100%
+}
+
+.wallet-adapter-modal-middle-button {
+    background-color: #512da8;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    margin-top: 48px;
+    padding: 12px;
+    width: 100%
+}
+
+
+/*# sourceMappingURL=main.5aed226a.css.map*/
