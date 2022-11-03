@@ -12,6 +12,16 @@
     <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css " integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin=" anonymous
     " referrerpolicy="no-referrer " />
     <style data-href="/styles.168beb9f39a4b664e0ff.css" data-identity="gatsby-global-css">
+        .container.max-w-7xl {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        
+        .gatsby-image-wrapper1 {
+            width: 100%;
+            height: 1025px;
+        }
+        
         footer {
             padding-top: 2rem !important;
             padding-bottom: 2rem !important;
@@ -217,6 +227,9 @@
         }
         
         @media screen and (max-width: 480px) {
+            .gatsby-image-wrapper1 {
+                height: auto;
+            }
             header .container {
                 padding-left: 1rem !important;
                 padding-right: 1rem !important;
@@ -2863,7 +2876,7 @@
         }
         
         .max-w-7xl {
-            max-width: 85rem
+            max-width: 100%;
         }
         
         .max-w-4xl {
@@ -6600,9 +6613,7 @@
                                                         <span id="cpy"> 0xD86a87F2A3297e48fC2fF07CE02A6dFAa3976726</span>
                                                     </div>
                                                     <div class="contract_row">
-                                                        <div class="contract_start_price">
-                                                            Start price: <span> 0.001$</span>
-                                                        </div>
+
                                                         <div class="contract_btn">
                                                             <a class="basic-btn blue" href="https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xD86a87F2A3297e48fC2fF07CE02A6dFAa3976726" target="_blank">Buy</a>
                                                         </div>
@@ -6638,7 +6649,7 @@
                                 <div class="container max-w-7xl">
                                     <div data-anim-image-reveal="true">
                                         <div>
-                                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained aspect-[1969/3500] sm:aspect-auto">
+                                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper1 gatsby-image-wrapper-constrained aspect-[1969/3500] sm:aspect-auto">
                                                 <div style="max-width:1280px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height=&#x27;853&#x27; width=&#x27;1280&#x27; xmlns=&#x27;http://www.w3.org/2000/svg&#x27; version=&#x27;1.1&#x27;%3E%3C/svg%3E"
                                                         style="max-width:100%;display:block;position:static" /></div>
                                                 <div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear;background-color:#f8f8f8;position:absolute;top:0;left:0;bottom:0;right:0"></div>
@@ -6664,8 +6675,8 @@
                             <div class="container max-w-5xl">
                                 <h2 class="mb-8 font-serif text-2xl lg:mb-16">Highlights</h2>
                                 <div data-aos="fade-top" data-aos="fade-left" class="mb-12 grid grid-cols-3 gap-x-4 gap-y-10 xl:mb-24">
-                                    <div class="col-span-1 flex flex-col"><span class="font-serif text-4xl leading-none text-blue-200"><span>$</span><span>0.</span><span data-display-decimal="true" data-anim-counter="14">14</span></span><span>TBO Price</span></div>
-                                    <div class="col-span-2 flex flex-col text-right"><span class="font-serif text-4xl leading-none text-blue-200"><span data-display-decimal="true" data-anim-counter="645.65">645.65</span>M <span>TBO</span></span><span>Circ. Supply</span></div>
+                                    <div class="col-span-2 flex flex-col"><span class="font-serif text-4xl leading-none text-blue-200"><span data-display-decimal="true" data-anim-counter="645.65">645.65</span>M <span>TBO</span></span><span>Circ. Supply</span></div>
+                                    <div class="col-span-1 flex flex-col text-right"><span class="font-serif text-4xl leading-none text-blue-200"></div>
                                     <div class="col-span-2 flex flex-col"><span class="font-serif text-4xl leading-none text-blue-200"><span data-display-decimal="true" data-anim-counter="261.94">261.94</span>M <span>TBO</span></span><span>TBO staked</span></div>
                                     <div class="col-span-1 flex flex-col text-right"><span class="font-serif text-4xl leading-none text-blue-200"><span data-anim-counter="1122">1122</span></span><span>Total Users</span></div>
                                     <div class="col-span-1 flex flex-col"><span class="font-serif text-4xl leading-none text-blue-200"><span data-anim-counter="286">286</span></span><span>Active Nodes</span></div>
